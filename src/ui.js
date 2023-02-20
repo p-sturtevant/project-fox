@@ -13,5 +13,5 @@ export const togglePoopBag = function togglePoopBag(show) {
 export const writeModal = function writeModal(text = "") {
   document.querySelector(
     ".modal"
-  ).innerHTML = `<div class="modal-inner>${text}</div>`;
+  ).innerHTML = `<div class="modal-inner">${text}</div>`;
 };
