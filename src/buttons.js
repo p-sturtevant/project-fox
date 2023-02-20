@@ -20,6 +20,5 @@ export default function initButtons(handleUserAction) {
       handleUserAction(ICONS[selectedIcon]);
     }
   }
-
   document.querySelector(".buttons").addEventListener("click", buttonClick);
 }
